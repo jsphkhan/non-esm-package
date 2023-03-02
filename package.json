@@ -1,9 +1,11 @@
 {
   "name": "non-esm-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tree shaking try with non esm package",
   "main": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rimraf ./dist",
     "prebuild": "npm run clean",
