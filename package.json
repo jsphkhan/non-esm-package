@@ -1,5 +1,5 @@
 {
-  "name": "non-esm-package",
+  "name": "@jsphkhan/non-esm-package",
   "version": "1.0.1",
   "description": "tree shaking try with non esm package",
   "main": "dist/index.js",
@@ -15,11 +15,9 @@
     "type": "git",
     "url": "git+https://github.com/jsphkhan/non-esm-package"
   },
+  "homepage": "https://github.com/jsphkhan/non-esm-package#readme",
   "author": "",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "devDependencies": {
     "typescript": "^4.9.5"
   },
