@@ -1,6 +1,6 @@
 {
   "name": "@jsphkhan/non-esm-package",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "tree shaking try with non esm package",
   "main": "dist/index.js",
   "files": [
