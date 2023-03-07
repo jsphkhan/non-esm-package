@@ -1,0 +1,20 @@
+Package is published to NPM Package registry
+
+Package name: @jsphkhan/esm-package
+
+This is a scoped public package
+
+I am using Babel to compile
+
+Build and Publish package:
+--------------------------
+npm run build:babel <- this will create the dist folder
+npm version <major/minor/patch>
+npm publish
+
+This package only produces CommonJS modules, which are difficult to tree shake. So if you do named imports
+from this package it will not tree shake
+eg. import { isClient } from '@jsphkhan/non-esm-package';
+This will import all the modules from the index file
+
+For ESM modules see /esm-package project
